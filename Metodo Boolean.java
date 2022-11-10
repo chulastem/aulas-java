@@ -22,8 +22,8 @@ public class JavaApplication14 {
     int n;
     
         System.out.println("Digite um número");
-        n = input.nextInt();
-        parOuImpar(n);
+        n = input.nextInt();   
+        System.out.println(parOuImpar(n));
     }
     
 }
