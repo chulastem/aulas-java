@@ -1,9 +1,5 @@
-
 package javaapplication14;
-
 import java.util.Scanner;
-
-
 
 public class JavaApplication14 {
     
@@ -13,7 +9,7 @@ public class JavaApplication14 {
             return true;
         }else{
             System.out.println("O número é impar");
-            return false;
+            return false; 
         }
 }
 
@@ -27,3 +23,7 @@ public class JavaApplication14 {
     }
     
 }
+//Outro modo de fazer o metodo
+
+ public static boolean parOuImpar(int n){
+       return n%2==0;
