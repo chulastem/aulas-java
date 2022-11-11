@@ -1,3 +1,15 @@
+/*
+Faça um programa em Java que solicite, ao usuário, o tempo de cada uma dessas 10 voltas, e que imprima:
+
+- A média, em segundos, de todas as voltas
+- Qual foi a volta mais rápida, e o tempo registrado na volta mais rápida
+- Qual foi a volta mais lenta, e o tempo registrado na volta mais lenta
+- Imprima inicialmente todas as voltas que tiveram o tempo abaixo da média, e o tempo registrado para cada uma dessas voltas
+- Imprima em seguida todas as voltas que tiveram o tempo acima da média, e o tempo registrado para cada uma dessas voltas.
+
+Um exemplo de saída para esse programa seria:
+*/
+
 import java.util.Scanner;
 
 public class Main {
