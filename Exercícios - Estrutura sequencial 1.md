@@ -1,6 +1,6 @@
 
 
-//1.Leia três números inteiros e imprima a média aritmética entre esses números.
+1.Leia três números inteiros e imprima a média aritmética entre esses números.
 
 ```
 public class Exercicios1 { 
@@ -18,9 +18,9 @@ public class Exercicios1 {
 }
 ```
 
-//2.Faça um programa que receba o ano de nascimento de uma pessoa, o ano atual e imprima:
-//a)A idade da pessoa no ano atual
-//b)A idade que a pessoa terá em 2050
+2.Faça um programa que receba o ano de nascimento de uma pessoa, o ano atual e imprima:
+a)A idade da pessoa no ano atual
+b)A idade que a pessoa terá em 2050
 
 ```
 public class Exercicios1 { 
@@ -38,7 +38,7 @@ public class Exercicios1 {
 }
 ```
 
-//3.Faça um programa que receba a cotação do dólar em reais, e um valor que o usuário possui em dólares. Imprima este valor em reais.
+3.Faça um programa que receba a cotação do dólar em reais, e um valor que o usuário possui em dólares. Imprima este valor em reais.
 
 ```
 public class Exercicios1 { 
@@ -55,7 +55,7 @@ public class Exercicios1 {
 }
 ```
 
-//4.Faça um programa que calcule e mostre a área de um losango AREA = (DIAGONAL MAIOR * DIAGONAL MENOR)/2 
+4.Faça um programa que calcule e mostre a área de um losango AREA = (DIAGONAL MAIOR * DIAGONAL MENOR)/2 
 
 ```
 public class Exercicios1 { 
@@ -74,7 +74,7 @@ public class Exercicios1 {
 }
 ```
 
-//5.Faça um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em Fahrenheit (F = (C*1,8) + 32)
+5.Faça um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em Fahrenheit (F = (C*1,8) + 32)
 
 ```
 public class Exercicios1 { 
@@ -90,8 +90,7 @@ public class Exercicios1 {
 }
 ```
 
-//6.Faça um programa que solicite ao usuário que informe os coeficientes a, b e c de uma equação de segundo grau, 
-//e que imprima as raízes desta equação (considere que os valores informados sempre retornarão raízes reais para a equação).
+6.Faça um programa que solicite ao usuário que informe os coeficientes a, b e c de uma equação de segundo grau, e que imprima as raízes desta equação (considere que os valores informados sempre retornarão raízes reais para a equação).
 
 
 
