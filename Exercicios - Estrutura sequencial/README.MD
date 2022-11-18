@@ -39,3 +39,61 @@ public class Main {
     }
 }
 ```
+
+### 3.Faça um programa que receba a cotação do dólar em reais, e um valor que o usuário possui em dólares. Imprima este valor em reais.
+
+```ruby
+import java.util.Scanner;
+public class Main { 
+ 
+     public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);{
+        double dolar, valor;
+        System.out.println("Digite a cotação atual do dolar em R$:");
+        dolar = input.nextDouble();
+        System.out.println("Digite o valor que pussui em Dolar $:");
+        valor = input.nextDouble();
+        System.out.println("Você pussuí R$ "+(valor*dolar)+" na cotação atual do dolar");
+    }
+    }
+}
+```
+
+### 4.Faça um programa que calcule e mostre a área de um losango AREA = (DIAGONAL MAIOR * DIAGONAL MENOR)/2 
+
+```ruby
+import java.util.Scanner;
+public class Main { 
+ 
+    public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);{
+        float dMaior, dMenor;
+        System.out.println("Para descobrir a AREA  de um losango, digite: ");
+        System.out.println("Valor da DIAGONAL MAIOR: ");
+        dMaior = input.nextFloat();
+        System.out.println("Valor da DIAGONAL MENOR: ");
+        dMenor = input.nextFloat();
+        System.out.println("A AREA do losango é = "+(dMaior*dMenor)/2);
+        
+    }
+    }
+}
+```
+
+### 5.Faça um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em Fahrenheit (F = (C*1,8) + 32)
+
+```ruby
+import java.util.Scanner;
+public class Main { 
+ 
+    public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);{
+        float c, f;
+        System.out.println("Digite a tempertura em Celsius: ");
+        c = input.nextFloat();
+        f = (float)((c*1.8)+32);
+        System.out.println("A temperatura em Fahrenheit é: "+f+"F");
+    }
+    }
+}
+```
