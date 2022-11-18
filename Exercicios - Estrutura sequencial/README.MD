@@ -23,10 +23,10 @@ a)A idade da pessoa no ano atual<P>
 b)A idade que a pessoa terá em 2050
   
 ```ruby
-  import java.util.Scanner;
+import java.util.Scanner;
 public class Main { 
  
-     public static void main(String[] args) {
+    public static void main(String[] args) {
     Scanner input = new Scanner(System.in);{
     int anoAt, anoNasc;
         System.out.println("Digite o seu ano de nascimento: ");
@@ -46,7 +46,7 @@ public class Main {
 import java.util.Scanner;
 public class Main { 
  
-     public static void main(String[] args) {
+    public static void main(String[] args) {
     Scanner input = new Scanner(System.in);{
         double dolar, valor;
         System.out.println("Digite a cotação atual do dolar em R$:");
@@ -104,17 +104,14 @@ public class Main {
 import java.util.Scanner;
 public class Main { 
  
-      public static void main(String[] args) {
-
+    public static void main(String[] args) {
     float a, b, c, delta, x1, x2;
 
     System.out.println("\n Digite o Valor de A ");
     Scanner input = new Scanner(System.in);
-    a = input.nextFloat();
-                        
+    a = input.nextFloat();                   
     System.out.println("\n Digite o Valor de B ");
     b = input.nextFloat();
-
     System.out.println("\n Digite o Valor de C ");
     c = input.nextFloat();
 
@@ -127,9 +124,9 @@ public class Main {
 
 	System.out.println("\n Valor de X' e = " +x1+ "\n Valor de X'' e = " + x2);
 	} else {
-		System.out.println("Não e possivel calcular esta Raiz, não e um numero real ");
-		}
-	}
+	System.out.println("Não e possivel calcular esta Raiz, não e um numero real ");
+   }
+   }
 }     
 ```
 
