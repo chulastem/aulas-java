@@ -1,6 +1,6 @@
 ### 1.Leia três números inteiros e imprima a média aritmética entre esses números.
 
-```
+```ruby
 import java.util.Scanner;
 public class Main { 
  
@@ -22,7 +22,7 @@ public class Main {
 a)A idade da pessoa no ano atual<P>
 b)A idade que a pessoa terá em 2050
   
-```
+```ruby
   import java.util.Scanner;
 public class Main { 
  
