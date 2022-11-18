@@ -1,4 +1,4 @@
-### 1.Leia três números inteiros e imprima a média aritmética entre esses números.
+### 1 - Leia três números inteiros e imprima a média aritmética entre esses números.
 
 ```ruby
 import java.util.Scanner;
@@ -18,7 +18,7 @@ public class Main {
 }
 ```
 
-### 2.Faça um programa que receba o ano de nascimento de uma pessoa, o ano atual e imprima:
+### 2 - Faça um programa que receba o ano de nascimento de uma pessoa, o ano atual e imprima:
 a)A idade da pessoa no ano atual<P>
 b)A idade que a pessoa terá em 2050
   
@@ -40,7 +40,7 @@ public class Main {
 }
 ```
 
-### 3.Faça um programa que receba a cotação do dólar em reais, e um valor que o usuário possui em dólares. Imprima este valor em reais.
+### 3 - Faça um programa que receba a cotação do dólar em reais, e um valor que o usuário possui em dólares. Imprima este valor em reais.
 
 ```ruby
 import java.util.Scanner;
@@ -59,7 +59,7 @@ public class Main {
 }
 ```
 
-### 4.Faça um programa que calcule e mostre a área de um losango AREA = (DIAGONAL MAIOR * DIAGONAL MENOR)/2 
+### 4 - Faça um programa que calcule e mostre a área de um losango AREA = (DIAGONAL MAIOR * DIAGONAL MENOR)/2 
 
 ```ruby
 import java.util.Scanner;
@@ -80,7 +80,7 @@ public class Main {
 }
 ```
 
-### 5.Faça um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em Fahrenheit (F = (C*1,8) + 32)
+### 5 - Faça um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em Fahrenheit (F = (C*1,8) + 32)
 
 ```ruby
 import java.util.Scanner;
@@ -98,7 +98,7 @@ public class Main {
 }
 ```
 
-### 6.Faça um programa que solicite ao usuário que informe os coeficientes a, b e c de uma equação de segundo grau, e que imprima as raízes desta equação (considere que os valores informados sempre retornarão raízes reais para a equação).
+### 6 - Faça um programa que solicite ao usuário que informe os coeficientes a, b e c de uma equação de segundo grau, e que imprima as raízes desta equação (considere que os valores informados sempre retornarão raízes reais para a equação).
 
 ```ruby
 import java.util.Scanner;
@@ -131,4 +131,23 @@ public class Main {
 		}
 	}
 }     
+```
+
+### 7 - Faça um programa que receba o valor do salário mínimo e o valor do salário de um funcionário, calcule e mostre a quantidade de salários mínimos que ganha esse funcionário
+
+```ruby
+import java.util.Scanner;
+public class Main { 
+ 
+        public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);{
+        float salMin, sal;
+        System.out.println("Digite o salário mínimo atual:");
+        salMin = input.nextFloat();
+        System.out.println("Digite o seu salário atual:");
+        sal = input.nextFloat();
+        System.out.println("Você recebe "+sal/salMin+" Salários minimos");
+    }
+    }
+}
 ```
