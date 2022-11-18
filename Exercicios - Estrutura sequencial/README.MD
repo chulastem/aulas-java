@@ -97,3 +97,38 @@ public class Main {
     }
 }
 ```
+
+### 6.Faça um programa que solicite ao usuário que informe os coeficientes a, b e c de uma equação de segundo grau, e que imprima as raízes desta equação (considere que os valores informados sempre retornarão raízes reais para a equação).
+
+```ruby
+import java.util.Scanner;
+public class Main { 
+ 
+      public static void main(String[] args) {
+
+    float a, b, c, delta, x1, x2;
+
+    System.out.println("\n Digite o Valor de A ");
+    Scanner input = new Scanner(System.in);
+    a = input.nextFloat();
+                        
+    System.out.println("\n Digite o Valor de B ");
+    b = input.nextFloat();
+
+    System.out.println("\n Digite o Valor de C ");
+    c = input.nextFloat();
+
+    delta = b * b - 4 * a * c;
+
+	if (delta > 0) {
+	x1 = (float) ((-b + Math.sqrt(delta)) / (2 * a));
+
+	x2 = (float) ((-b + Math.sqrt(delta)) / (2 * a));
+
+	System.out.println("\n Valor de X' e = " +x1+ "\n Valor de X'' e = " + x2);
+	} else {
+		System.out.println("Não e possivel calcular esta Raiz, não e um numero real ");
+		}
+	}
+}     
+```
