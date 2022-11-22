@@ -174,3 +174,148 @@ public static void main(String[] args) {
     }
 }
 ```
+
+### 9 - Receba um número positivo, calcule e mostre:
+a) O número digitado ao quadrado</p>
+b) O número digitado ao cubo</p>
+c) A raiz quadrada do número digitado</p>
+d) A raiz cúbica do número digitado.</p>
+
+```java
+import java.util.Scanner;
+public class Main
+{
+public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);{
+        double n;
+        System.out.println("Digite um valor positivo:");
+        n = input.nextDouble();
+        System.out.println("O número digitado ao quadrado é = "+n*2);
+        System.out.println("O número digitado ao cubo é = "+n*3);
+        System.out.println("A raiz quadrada do número digitado é = "+n/2);
+        System.out.println("A raiz cúbica do número digitado é = "+n/3);     
+    }
+    }
+}
+```
+
+### 10 - Todo restaurante, embora por lei não possa obrigar o cliente a pagar, cobra 10% para o garçom. Faça um programa que leia o valor gasto pelo cliente e informe o valor a ser pago de gorjeta.
+
+```java
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);{
+        double valor;
+        System.out.println("Didite o valor gasto pelo cliente:");
+        valor = input.nextDouble();
+        System.out.println("Valor da gorjeta = R$ "+valor*0.10);
+    }
+    }
+ }
+```
+
+### 11 - Faça um programa que receba um número inteiro e que imprima o antecessor, o sucessor, o dobro e a metade do número informado. 
+
+```java
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);{
+        int n;
+        System.out.println("Digite um valor inteiro:");
+        n = input.nextInt();
+        System.out.println("Número antencessor ao valor digitado: "+(n-1));
+        System.out.println("Nùmero sucessor ao valor digitado: "+(n+1));
+        System.out.println("O dobro do número digitado: "+(n*2));
+        System.out.println("A metade do número digitado: "+(n/2));
+    }
+    }
+}
+```
+
+### 12 - Faça um programa que, tendo como dados de entrada a altura (H - em metros) de um homem, calcule e apresente seu peso ideal utilizando a seguinte fórmula: 
+Peso ideal (P) = (72,7 * H)–58. 
+
+```java
+import java.util.Scanner; 
+public class Main{
+public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    double altura, peso;
+    System.out.println("Qual o peso ideial para um Homem?");
+    System.out.print("Digite a sua altura: ");
+    altura = input.nextDouble();
+    peso = 72.7*altura-58;
+    System.out.println("O seu peso ideal é: "+peso+"kg");
+}
+} 
+```
+
+### 13 - Faça o mesmo programa do item anterior, utilizando a fórmula para o cálculo do peso ideal para mulheres:
+Peso ideal (P) = (62,1 * H) – 44,7
+
+```java
+import java.util.Scanner; 
+public class Main{
+public static void main(String[] args) {
+    
+        Scanner input = new Scanner(System.in);
+        double altura, peso;
+        System.out.println("Qual o peso ideial para uma Mulher?"); 
+        System.out.print("Digite a sua altura: ");
+        altura = input.nextDouble();
+        peso = 62.1* altura-44.7;
+        System.out.println("O seu peso ideial é: "+peso+"Kg");
+        }
+} 
+```
+
+### 14 - Faça um programa que leia duas variáveis e troque o conteúdo dessas duas variáveis. Em seguida, imprima o valor dessas variáveis invertido. Exemplo: A = 7, B = 9. Saída: A = 9, B = 7.
+
+```java
+import java.util.Scanner; 
+public class Main{
+public static void main(String[] args) { 
+    Scanner input = new Scanner(System.in); int a, b, c;
+    System.out.print("Insira o valor de A: "); 
+    a = input.nextInt();
+    System.out.print("Insira o valor de B: "); 
+    b = input.nextInt();
+        
+    c = a;
+    a = b;
+    b = c;
+    
+    System.out.println(" valor de A:"+a);
+    System.out.println(" valor de B:"+b);
+} 
+}
+```
+
+### 15 - Considerando uma eleição de apenas dois candidatos, faça um programa que leia o número total de eleitores, o número de votos do primeiro candidato e o número de votos do segundo candidato. Em seguida, o programa deverá apresentar o percentual de votos de cada um dos candidatos e o percentual de votos nulos.
+
+```java
+import java.util.Scanner; 
+public class Main{
+public static void main(String[] args) {
+    
+    Scanner input = new Scanner(System.in);
+    int eleitores, cand1, cand2, porCand1, porCand2, porNulos; 
+    System.out.println("Insira o numero total de elitores: ");
+    eleitores = input.nextInt();
+    System.out.println("Quantos votos teve o candidato 1? ");   
+    cand1 = input.nextInt();
+    System.out.println("Quantos votos teve o candidato 2? "); 
+    cand2 = input.nextInt();
+    porCand1 = cand1*100/eleitores; 
+    porCand2 = cand2*100/eleitores; 
+    porNulos = 100-porCand1-porCand2;
+    System.out.println("porcentagem de votos %"); 
+    System.out.println("caditado 1 = "+porCand1+"%"); 
+    System.out.println("caditado 2 = "+porCand2+"%"); 
+    System.out.println("Nulos ="+porNulos+"%");
+} 
+}
+```
