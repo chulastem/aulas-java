@@ -54,7 +54,7 @@ public class Main
 |----------|-----------|
 | >=0 & <3 | REPROVADO |
 | >=3 & <7 | EXAME     |
-| >=7 & <10| APROVADO  |
+| >=7 & <=10| APROVADO  |
 
 ```java
 import java.util.Scanner;
