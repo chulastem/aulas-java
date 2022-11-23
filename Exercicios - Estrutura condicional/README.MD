@@ -18,8 +18,8 @@ public class Main
 		}else{if(n1 == n2){
 		    System.out.println(n1+" é igual a "+n2);
 		}
+		}
 	}
-}
 }
 }
 ```
@@ -77,9 +77,9 @@ public class Main
 		    System.out.println(" Exame");
 		}else{if(total>=7 && total <=10){
 		    System.out.println(" Aprovado");
-	    }
-}
-}
-}
+		}
+		}
+		}
+	}
 }
 ```
