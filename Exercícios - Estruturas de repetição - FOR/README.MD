@@ -4,6 +4,31 @@
 ### 1 - Faça um programa que faça a leitura de 5 valores, e para cada valor, mostre o seu dobro na tela. 
 
 ```java
+
+```
+
+### 2 -Faça um programa que leia um número e que imprima os números ímpares de 1 até o número informado. 
+
+```java
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n;
+        System.out.println("Digite um número");
+        n = input.nextInt();
+        for (int i = 0; i <= n; i++) {
+            if (i % 2 != 0) {
+                System.out.println(i);
+            }
+        }
+    }
+}
+```
+
+### 3 - Leia um número e imprima a tabuada de multiplicar deste número. 
+
+```java
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -18,18 +43,6 @@ public class Main {
 
     }
 }
-```
-
-### 2 -Faça um programa que leia um número e que imprima os números ímpares de 1 até o número informado. 
-
-```java
-
-```
-
-### 3 - Leia um número e imprima a tabuada de multiplicar deste número. 
-
-```java
-
 ```
 
 ### 4 - Faça um programa que solicite ao usuário que informe o valor das temperaturas coletadas nos 10 primeiros dias do mês de janeiro de 2021, em Belo Horizonte. Imprima em seguida a média dessas temperaturas.
