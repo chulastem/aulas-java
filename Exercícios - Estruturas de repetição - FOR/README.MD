@@ -4,7 +4,18 @@
 ### 1 - Faça um programa que faça a leitura de 5 valores, e para cada valor, mostre o seu dobro na tela. 
 
 ```java
-
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n;
+        for(int i = 0; i<=4;i++){
+            System.out.println("Digite um número");
+            n =input.nextInt();
+            System.out.println("dobro = "+n*2);
+        }
+    }
+}
 ```
 
 ### 2 -Faça um programa que leia um número e que imprima os números ímpares de 1 até o número informado. 
