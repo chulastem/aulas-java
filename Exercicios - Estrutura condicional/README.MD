@@ -86,7 +86,40 @@ public class Main
 ### 4 - Dados três valores X,Y,Z, verificar se eles podem ser os comprimentos dos lados de um triângulo. Se eles não formarem um triângulo escrever uma mensagem. Considerar que o comprimento de cada lado de um triângulo é menor que a soma dos outros dois lados.
 
 ```java
+import java.util.Scanner;
 
+public class Main {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        int A, B, C;
+
+        System.out.print("Verificador de Triângulo\n\n");
+
+        System.out.print("Digite o lado A=");
+        A = entrada.nextInt(); 
+
+        System.out.print("Digite o lado B=");
+        B = entrada.nextInt(); 
+
+        System.out.print("Digite o lado C=");
+        C = entrada.nextInt(); 
+
+
+        if( A < B + C && B < A + C && C < A + B ){ 
+            if(A==B && B == C){ 
+                System.out.print("O triângulo é Eqüilátero.");
+            }else if(A==B || A==C || B==C){ 
+                System.out.print("O triângulo é Isósceles.");
+            }else{ 
+                System.out.print("O triângulo é Escaleno.");
+            }
+        }else{ 
+            System.out.print("Os lados fornecidos não caracterizam um triângulo");
+        }
+
+    }
+
+}
 ```
 
 ### 5 - Faça um programa que leia o sexo e a altura (H - em metros) de uma pessoa, calcule e apresente seu peso ideal utilizando as seguintes fórmulas: 
