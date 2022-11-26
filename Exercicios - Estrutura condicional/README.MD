@@ -176,7 +176,36 @@ e, a situação do peso é determinada pela tabela abaixo:
 |IMC de 40 e acima  |	Obeso Mórbido  |
 
 ```java
-
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double peso, alt, imc;
+        System.out.println("Digite seu peso:");
+        peso = input.nextDouble();
+        System.out.println("Digite sua altura");
+        alt = input.nextDouble();
+        imc = peso/(alt*alt);
+        if(imc<20){
+            System.out.println("IMC "+imc+": Abaixo do peso");
+        }else{if(imc>=20&&imc<25){
+            System.out.println("IMC "+imc+": Peso normal");
+        }else {
+            if (imc >= 25 && imc < 30) {
+                System.out.println("IMC " + imc + ": Sobre peso");
+            } else {
+                if (imc >= 30 && imc < 40) {
+                    System.out.println("IMC " + imc + ": Obeso");
+                } else {
+                    if (imc >= 40) {
+                        System.out.println("IMC " + imc + ": Obeso Mórbido");
+                        }
+                    }
+                }
+            }   
+        }   
+    }
+}
 ```
 
 ### 7 - Uma empresa decide dar aumento de 30% aos funcionários com salários inferiores a R$1000,00. Faça um programa que receba o salário do funcionário e mostre o valor do salário reajustado ou uma mensagem, caso o funcionário não tenha direito ao aumento.
