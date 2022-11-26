@@ -211,7 +211,22 @@ public class Main {
 ### 7 - Uma empresa decide dar aumento de 30% aos funcionários com salários inferiores a R$1000,00. Faça um programa que receba o salário do funcionário e mostre o valor do salário reajustado ou uma mensagem, caso o funcionário não tenha direito ao aumento.
 
 ```java
-
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double sal, aut;
+        System.out.println("Digite o salário atual do funcionário");
+        sal = input.nextDouble();
+        if(sal < 1000.00){
+            System.out.println("Funcionário tem direito ao aumento.");
+            aut = (sal*30)/100;
+            System.out.println("Novo salário = R$ "+(sal+aut));
+        }else{
+            System.out.println("Funcionário NÃO tem direito ao aumento");
+        }
+    }
+}
 ```
 
 ### 8 - Faça um programa que receba a idade de um nadador e mostre a sua categoria
