@@ -308,7 +308,7 @@ public class Main {
         }else if(dia==6){
             System.out.println("Sexta-feira");
         }else if(dia==7){
-            System.out.println("Sexta-feira");
+            System.out.println("Sabado");
         }else{
             System.out.println("Não existe dia da semana com esse número");
         }
