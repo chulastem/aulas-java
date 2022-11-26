@@ -288,7 +288,32 @@ public class Main {
 ### 10 - Faça um programa que leia o um número inteiro entre 1 e 7 e escreva o dia da semana correspondente. Caso o usuário digite um número fora desse intervalo, deverá aparecer uma mensagem informando que não existe dia da semana com esse número.
 
 ```java
-
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int dia;
+        System.out.println("Digite um número de 1 a 7 para descobrir o dia da semana");
+        dia = input.nextInt();
+        if(dia==1){
+            System.out.println("Domingo");
+        }else if(dia==2){
+            System.out.println("Segunda-feira");
+        }else if(dia==3){
+            System.out.println("Terça-feira");
+        }else if(dia==4){
+            System.out.println("Quarta-feira");
+        }else if(dia==5){
+            System.out.println("Quinta-feira");
+        }else if(dia==6){
+            System.out.println("Sexta-feira");
+        }else if(dia==7){
+            System.out.println("Sexta-feira");
+        }else{
+            System.out.println("Não existe dia da semana com esse número");
+        }
+    }
+}
 ```
 
 ### 11 - Faça um programa que leia um número inteiro entre 1 e 12 e escrever o mês correspondente. Caso o usuário digite um número fora desse intervalo, deverá aparecer uma mensagem informando que não existe mês com este número.
