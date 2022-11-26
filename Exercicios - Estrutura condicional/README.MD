@@ -267,7 +267,22 @@ public class Main {
 - eleitor facultativo (de 16 até 18 anos e maior de 65 anos, inclusive)
 
 ```java
-
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int idade;
+        System.out.println("Digite sua idade para descobrir sua Classe Eleitoral:");
+        idade = input.nextInt();
+        if(idade<16){
+            System.out.println("Não eleitor");
+        }else if((idade>16&&idade<18)||(idade>65)){
+            System.out.println("Eleitor facultativo");
+        }else if(idade>18&&idade<65){
+            System.out.println("Eleitor obrigatório");
+        }
+    }
+}
 ```
 
 ### 10 - Faça um programa que leia o um número inteiro entre 1 e 7 e escreva o dia da semana correspondente. Caso o usuário digite um número fora desse intervalo, deverá aparecer uma mensagem informando que não existe dia da semana com esse número.
