@@ -84,7 +84,27 @@ public class Main {
 ### 6 - Faça um programa que leia as notas de 5 alunos, e que exiba a maior e menor notas entre elas.
 
 ```java
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner (System.in);
+        double maior_nota = 0, menor_nota = 120;
+        double nota[] = new double [5];
+        for (int i=0; i < nota.length; i++){
+            System.out.println("Digite a sua nota");
+            nota[i] = entrada.nextDouble();
+            if (nota[i] > maior_nota){
+                maior_nota = nota[i];
+            }
+            if (nota[i] <= menor_nota){
+                menor_nota = nota[i];
+            }
 
+        }
+        System.out.println("A maior nota é: "+maior_nota);
+        System.out.println("A menor nota é: "+menor_nota);
+    }
+}
 ```
 
 ### 7 - Faça um programa que leia a idade e peso de sete pessoas. Calcule e mostre:
